@@ -1,0 +1,359 @@
+* {
+    margin: 0;
+    font-family: 'Amazon Ember', sans-serif;
+    border: border-box;
+}
+
+.navbar {
+    height: 60px;
+    background-color: #00453e;
+    color: white;
+    /* To bring content on same line we use flex */
+    display: flex;
+    align-items: center;
+    /* justify-content: space-evenly; */
+}
+
+.nav-logo {
+    height: 50px;
+    width: 100px;
+    padding: 0px 31px 0px 5px;
+}
+
+/* .logo {
+   
+    background-size: cover;
+    height: 50px;
+    width: 100%;
+} */
+/* .logo .img{
+    size: 23px;
+    padding: 1px 8px 0 6px;
+    margin: 1px;
+    font-weight: 400;
+} */
+
+.border {
+    border: 2px solid transparent;
+    padding: 0px 20px 0px 5px;
+    width: 100px;
+    /* padding: 0 8px 0 6px; */
+    /* margin: 5px 2px; */
+    margin: 2px 6px 7px;
+
+
+}
+
+.border:hover {
+    border: 1px solid white;
+    width: 100px;
+
+}
+
+/** Box 2 for "Deliver to India"**/
+.add-first {
+    color: #cccccc;
+    font-size: 0.85rem;
+    margin-left: 15px;
+}
+
+.add-second {
+    font-size: 1rem;
+    margin-left: 3px;
+}
+
+.add-icon {
+    /* To bring icon symbol in same line , we use flex */
+    display: flex;
+    align-items: center;
+}
+
+/* 
+.border2 {
+    border: 2px blanchedalmond;
+    padding: 0px 31px 0px 5px;
+    width: 100px;
+
+}
+
+.border:hover {
+    border: 1px solid white;
+    width: 100px;
+} */
+
+/* /** Box 3  */
+.nav-search {
+    display: flex;
+    justify-content: space-around;
+    width: 615px;
+    height: 40px;
+    background-color: pink;
+    border-radius: 5px;
+
+
+}
+
+.search-select {
+    background-color: #e6e6e6;
+    width: 50px;
+    text-align: center;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border: none;
+}
+
+.search-input {
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+
+}
+
+.search-icon {
+    width: 45px;
+    display: flex;
+    /* brings search icon horizontally centre */
+    justify-content: center;
+    /* brings search icon vetically centre */
+    align-items: center;
+    font-size: 1.3rem;
+    color: black;
+    background-color: #ffdfd7;
+    border-radius: 5px;
+
+}
+
+.nav-search:hover {
+    border: 2px solid orange;
+}
+
+/* Box 4 */
+span {
+    font-size: 0.9rem
+}
+
+.nav-second {
+    font-size: 0.78rem;
+    font-weight: 790;
+}
+
+/* Box 6 Cart */
+/* To style particular element. Here i is selector */
+.nav-cart i {
+    font-size: 32px;
+
+}
+
+.nav-cart {
+    font-size: 0.78rem;
+    font-weight: 790;
+}
+
+/* panel */
+
+.panel {
+    height: 40px;
+    background-color: #195851;
+    display: flex;
+    color: white;
+    /* brings items vetically centre or aligns vertically */
+    align-items: center;
+    justify-content: space-around;
+}
+
+.panel-ops p {
+    /* This property makes all items come in one horizontal line */
+    display: inline;
+    margin: 10px;
+
+}
+
+.panel-ops {
+    width: 93%;
+    font-size: 0.88rem;
+    /* font-weight: bold; */
+}
+
+/* hero section */
+.hero-section {
+    background-image: url(assets/images/kitchen.jpg);
+    height: 310px;
+    width: 100%;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+
+}
+
+.hero-msg {
+    background-color: #f5f6f6;
+    color: black;
+    width: 95%;
+    font-size: 0.89rem;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 25px;
+
+
+
+
+}
+
+/* line-height: 20px;
+    padding: 0 10px;
+    max-width: 1480px;
+    margin: 20px auto 0;
+} */
+
+.hero-msg a {
+    color: #007185;
+
+}
+
+/* shop section */
+
+.shop-section {
+    display: flex;
+    /* To spread boxes evenly */
+    justify-content: space-evenly;
+    background-color: #e3e6e6;
+    /* When u copy paste the 1st row...the boxes appear in 1st row itself to bring them to next row we use flex wrap */
+    flex-wrap: wrap;
+
+
+}
+
+.box {
+    border: 2px solid black;
+    height: 400px;
+    width: 23%;
+    background-color: white;
+    border: none;
+    padding: 20px 0 15px;
+    margin: 10px;
+
+}
+
+.box-img {
+    height: 330px;
+    width: 252px;
+    object-fit: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+
+
+}
+
+.box-content {
+    margin-left: 1rem;
+    margin-right: 1rem;
+    font-size: 12px;
+}
+
+.box-content p {
+    color: #007185;
+    font-size: 14px;
+}
+
+.box-content p:hover {
+    color: red;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+/* footer  */
+footer {
+    margin-top: 15px;
+}
+
+.foot-panel1 {
+    height: 49px;
+    background-color: #37475a;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.8rem;
+}
+
+.foot-panel2 {
+    height: 500px;
+    color: white;
+    background-color: #232f3e;
+    /* all items align horizontaly */
+    display: flex;
+    justify-content: space-evenly;
+}
+
+ul {
+    margin-top: 50px;
+}
+
+ul p {
+    font-size: 16px;
+    font-weight: 700;
+}
+
+ul a {
+    /* all items come in single line verically */
+    display: block;
+    color: #dddddd;
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: 13px;
+}
+
+ul a:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.foot-panel3 {
+    background-color: #232f3e;
+    height: 100px;
+    border-top: 1px solid #3a4553;
+    /* To make amazon logo at centre */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.foot-panel4 {
+    height: 80px;
+    background-color: #131a22;
+    color: #dddddd;
+    font-size: 12px;
+    font-weight: 400;
+    /* to align the text at centre and not display flex*/
+    text-align: center;
+}
+
+.foot-panel4 .pages a:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.pages {
+    padding-top: 25px;
+
+}
+
+.foot-panel4 .pages a {
+    margin: 0 5px;
+
+}
+
+.foot-panel4 .pages {
+    margin-bottom: 10px;
+}
+
+
+.copywrite {
+    /* margin-top: 13px; or*/
+    padding-top: 1px;
+}
